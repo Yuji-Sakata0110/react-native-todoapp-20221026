@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/yujis/.nodebrew/node/v16.15.0/bin/node /Users/yujis/.yarn/bin/yarn.js add @adobe/react-spectrum
+
+PATH: 
+  /Users/yujis/.yarn/bin:/Users/yujis/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/yujis/.pyenv/shims:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/yujis/.nodebrew/current/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Python/3.8/lib/python/site-packages:/Users/yujis/go:bin:/Users/yujis/.fzf/bin:/opt/homebrew/opt/mysql-client/bin:/Users/yujis/.volta/tools/image/node/16.17.1/lib/node_modules/typescript:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/opt/homebrew/bin/:/usr/local/bin/node:/Users/yujis/.nodebrew/node/v16.15.0/bin:/Users/yujis/.rbenv/versions/3.1.2
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/yujis/Documents/javascript/React-Native/test2/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /Users/yujis/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/yujis/.yarn/lib/cli.js:310:30)
+      at /Users/yujis/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "test2",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~46.0.16",
+      "expo-status-bar": "~1.4.0",
+      "react": "18.0.0",
+      "react-native": "0.69.6"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
